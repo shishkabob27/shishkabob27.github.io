@@ -46,7 +46,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  #wsite-menus .wsite-menu-arrow:before { display: block; color: #b9b9b9; content: '\203A'; font-family: 'Quattrocento Sans', sans-serif; font-size: 24px; font-weight: normal; line-height: 11px; }
  .wsite-social { vertical-align: middle; }
  .wsite-social .wsite-social-item { width: 28px; height: 30px; margin-right: 5px; }
- .wsite-background, .wsite-header-section { position: relative; background: url(theme/images/default-bg.jpg?1643425387) no-repeat; background-size: cover; background-position: center center; }
+ .wsite-background, .wsite-header-section { position: relative; background: url(theme/images/default-bg.jpg?1643480811) no-repeat; background-size: cover; background-position: center center; }
  .banner-wrap { position: relative; width: 100%; max-width: 1115px; margin: 20px auto 0; }
  .wsite-header-section:before { position: absolute; top: 0; left: 0; width: 100%; min-height: 100%; height: inherit; background: rgba(0,0,0,0.2); content: ' '; }
  .wsite-section-bg-color:before { display: none; }
@@ -89,7 +89,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .wsite-form-radio-container { margin-bottom: 10px; }
  .wsite-form-input, .wsite-search-element-input { margin-bottom: 10px; padding: 10px !important; background: #fafafa; color: #444444; border: 1px solid #b9b9b9; border-radius: 1px; font-family: 'Quattrocento Sans', sans-serif; font-size: 14px; font-weight: 400; line-height: normal; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
  .wsite-form-input:focus, .wsite-form-input--focus, .wsite-search-element-input:focus { border: 1px solid #777777; }
- .form-select, .wsite-form-field select, .wsite-com-product-option-groups select { height: 40px; padding: 10px; background: #fafafa url(theme/images/select-dropdown.png?1643425387) 97% center no-repeat; color: #333333; border: 1px solid #b9b9b9; border-radius: 1px; font-family: 'Quattrocento Sans', sans-serif; font-size: 14px; font-weight: 400; line-height: normal; }
+ .form-select, .wsite-form-field select, .wsite-com-product-option-groups select { height: 40px; padding: 10px; background: #fafafa url(theme/images/select-dropdown.png?1643480811) 97% center no-repeat; color: #333333; border: 1px solid #b9b9b9; border-radius: 1px; font-family: 'Quattrocento Sans', sans-serif; font-size: 14px; font-weight: 400; line-height: normal; }
  .form-select:focus, .wsite-form-field select:focus, .wsite-com-product-option-groups select:focus { border: 1px solid #777777; }
  .formlist, .wsite-editor .formlist { min-height: inherit; }
  .wsite-search-element-submit, .wsite-editor .wsite-search-element-submit { top: 12px; margin-top: 0; }
