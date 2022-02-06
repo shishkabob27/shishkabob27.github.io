@@ -9,28 +9,27 @@
     overflow-x: hidden;
     padding-top: 20px;
     text-align: left;
-    }
+}
 
-    .sidenav a {
+.sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 24px;
     color: #ffffff;
     display: block;
-    }
+}
 
-    .sidenav a:hover {
+.sidenav a:hover {
     color: #acacac;
-
-    }
+}
     
-    /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-    @media screen and (max-height: 450px) {
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-    }
+}
 
-    .main {
+.main {
     margin-left: 168px; /* Same as the width of the sidebar */
     background-color:rgb(0, 0, 0);
     text-align: center;
@@ -39,11 +38,11 @@
     font-style: normal;
     color: white;
     text-shadow: 0px 0px 8px white;
-    }
+}
 
-    .GAMEIMG{
-        width: 512px;
-        height: 384px;
-        object-fit: cover;
-        border-radius: 50px;
-    }
+.GAMEIMG{
+    width: 512px;
+    height: 384px;
+    object-fit: cover;
+    border-radius: 50px;
+}
