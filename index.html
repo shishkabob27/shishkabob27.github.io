@@ -6,9 +6,22 @@
         <link rel="stylesheet" href="https://use.typekit.net/url5ayq.css">
         <link rel="stylesheet" href="styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Youtube, Music, Games">
         <meta charset="UTF-8">
         <meta name="description" content="Epic games and stuff. :)">
         <meta name="author" content="shishkabob">
+
+       <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q377HMYJL5"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-Q377HMYJL5');
+        </script> 
+
+        
     </head>
 <body class="main">
 
@@ -17,10 +30,9 @@
         <a href="https://steamcommunity.com/id/shishkabob27/">Steam</a>
         <a href="https://www.twitch.tv/shishkabob27">Twitch</a>
         <a href="https://github.com/Shishkabob27">GitHub</a>
-        <a href="https://shishkabob.xyz/files/images/general/PXL_20220119_040540291.jpg">DOG</a>
     </div>
 
-    <div style="padding: 16px;">
+    <div style="padding: 16px;padding-top: 48px;">
         <img src="https://shishkabob.xyz/files/images/general/shishkabob.png" alt="shishkabob" style="width:128px;height:128px;border-radius: 20%;">
     </div>
 
@@ -37,17 +49,17 @@
     
     <div style="padding: 16px; ">
         
-        <div style="display: flex; justify-content: center; gap: 128px;">
+        <div class="gamelayout">
             
             <div>
-                <h1>Adventure of The Dip****s</H1>
+                <h1>AoTD</H1>
                 <img class="gameimg" src="https://shishkabob.xyz/files/images/games/NOLOGO.png" alt="Adventure of The Dip****s Logo"></a>
                 <p>A 4 player sidescroller ft. ButterBeat, Kf3, Biggie</p>
             </div>
 
         </div>
 
-        <div style="display: flex; justify-content: center; gap: 128px;">
+        <div class="gamelayout">
         
             <div style="width: 512px;">
                 <h1>Bulletsite: Retold</H1>
@@ -64,7 +76,7 @@
         
         </div>
 
-        <div style="display: flex; justify-content: center; gap: 128px;">
+        <div class="gamelayout">
             
             <div style="width: 512px;">
                 <h1>Bulletsite</H1>
@@ -79,6 +91,30 @@
             </div>
     
         </div>
+        
+    </div>    
+    
+    <div class="footer">
+        <p>shishkabob logo by ButterBeat</p>
+    </div>
+
+    <script>
+    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+    dropdownContent.style.display = "none";
+    } else {
+    dropdownContent.style.display = "block";
+    }
+    });
+    }
+    </script>
 
 </body>
 </html>

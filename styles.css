@@ -1,36 +1,40 @@
 .sidenav {
     height: 100%;
-    width: 160px;
+    width: 128px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 8px;
     text-align: left;
 }
 
+
 .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 6px 6px 6px 6px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     color: #ffffff;
     display: block;
+    text-align: center;
 }
+  
 
 .sidenav a:hover {
     color: #acacac;
 }
     
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+*/
 
 .main {
-    margin-left: 168px; /* Same as the width of the sidebar */
+    margin-left: 136px; /* Same as the width of the sidebar */
     background-color:rgb(0, 0, 0);
     text-align: center;
     font-family: poppins,sans-serif;
@@ -38,6 +42,7 @@
     font-style: normal;
     color: white;
     text-shadow: 0px 0px 8px white;
+    justify-content: center;
 }
 
 .gameimg{
@@ -46,3 +51,20 @@
     object-fit: cover;
     border-radius: 50px;
 }
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #acacac;
+    font-size: small;
+    padding-top: 128px;
+}
+
+.gamelayout {
+    display: flex; 
+    justify-content: center;
+    gap: 128px;
+}
+
