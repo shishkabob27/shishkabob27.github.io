@@ -96,9 +96,9 @@ a
 
 .gamescreenshot
 {
-    border-radius: 16px;
+    border-radius: 20px;
     height: 288px;
-    margin: 8px;
+    margin: 16px;
 }
 
 .sysrequire
