@@ -1,5 +1,4 @@
-html, button
-{
+html, button{
     text-shadow: 0px 0px 8px white;
     font-family: poppins,arial;
     color: white;
@@ -7,8 +6,7 @@ html, button
     transition: all 1s;
 }
 
-a
-{
+a{
     text-decoration: none;
     color: white;
 }
@@ -20,8 +18,7 @@ hr{
 
 /*Navbar*/
 
-nav
-{
+nav{
     text-align: left;
     background-color: rgba(0, 0, 0, 0.9);
     margin: 16px;
@@ -31,33 +28,28 @@ nav
     padding: 16px;
 }
 
-.shishkabobimg
-{
+.shishkabobimg{
     height: 64px; 
     width: 64px; 
     border-radius: 16px;
     padding: 0%;
 }
 
-nav h1
-{
+nav h1{
     margin: 0%;
     padding-left: 24px;
     padding-top: 16px;
 }
 
-.navbarlink
-{
+nav a{
     padding-right: 28px;
 }
 
-nav a:hover
-{
+nav a:hover{
     color: rgb(180, 180, 180);
 }
 
-.navbaroptions
-{
+.navbaroptions{
     margin-left: auto;
     margin-top: 22px;
 }
@@ -82,18 +74,22 @@ nav a:hover
     text-align: center;
 }
 
-.gameimg
-{
-    height: 384px;
-    margin-right: 64px;
-    border-radius: 32px;
+
+#gameMainContent{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.gameimg, .gamescreenshot
-{
-    width: 512px;
-    object-fit: cover;
-    box-shadow: 0px 0px 32px rgba(255, 255, 255, 0.5);
+#gameSection{
+    display: flex;
+
+}
+#gameSidebar{
+
+    width: 30%;
 }
 
 
@@ -102,13 +98,9 @@ nav a:hover
     border-radius: 20px;
     height: 288px;
     margin: 16px;
-}
-
-.sysrequire
-{
-    margin-bottom:0%;
-    text-align: left;
-    width: 50%;
+    width: 512px;
+    object-fit: cover;
+    box-shadow: 0px 0px 32px rgba(255, 255, 255, 0.5);
 }
 
 .gameholder
@@ -145,11 +137,6 @@ nav a:hover
     border-radius: 24px;
 }
 
-.gamelinks
-{
-    margin: 16px;
-    font-size: larger;
-}
 
 button{
     margin: 12px;
