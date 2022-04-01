@@ -62,8 +62,7 @@ nav a:hover{
     margin: 16px;
 }
 
-.main
-{
+.main{
     height: auto;
     justify-content: center;
     width: 1280px;
@@ -91,9 +90,16 @@ nav a:hover{
     text-align: left;
 }
 
+#gameSidebar a{
+    text-decoration: underline;
+}
 
-.gamescreenshot
-{
+#gameSidebar  a:hover{
+    color: rgb(180, 180, 180);
+}
+
+
+.gamescreenshot{
     border-radius: 20px;
     height: 288px;
     margin: 16px;
@@ -102,8 +108,7 @@ nav a:hover{
     box-shadow: 0px 0px 32px rgba(255, 255, 255, 0.5);
 }
 
-.gameholder
-{
+.gameholder{
     height: 640px;
     width: 480px;
     object-fit: cover;
@@ -157,11 +162,6 @@ button:hover
 
 button {
     transition: background-color 0.2s;
-}
-
-.btnbox{
-    margin-top: 16px;
-    margin-bottom: 32px;
 }
 
 
