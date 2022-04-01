@@ -3,7 +3,7 @@ html, button{
     font-family: poppins,arial;
     color: white;
     background-color: black;
-    transition: all 1s;
+    transition: all 0.2s;
 }
 
 a{
