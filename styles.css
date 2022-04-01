@@ -4,6 +4,7 @@ html, button
     font-family: poppins,arial;
     color: white;
     background-color: black;
+    transition: all 1s;
 }
 
 a
@@ -19,7 +20,7 @@ hr{
 
 /*Navbar*/
 
-.navbar
+nav
 {
     text-align: left;
     background-color: rgba(0, 0, 0, 0.9);
@@ -38,11 +39,11 @@ hr{
     padding: 0%;
 }
 
-.navbar h1
+nav h1
 {
     margin: 0%;
     padding-left: 24px;
-    padding-top: 8px;
+    padding-top: 16px;
 }
 
 .navbarlink
@@ -50,7 +51,7 @@ hr{
     padding-right: 28px;
 }
 
-.navbar a:hover
+nav a:hover
 {
     color: rgb(180, 180, 180);
 }
@@ -119,8 +120,18 @@ hr{
     transition: all 0.3s;
 }
 
-.gameholder p{
-    
+.gameholder p
+{
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
+}
+
+.gameSection{
+    justify-content: space-evenly;
+    display: flex;
 }
 
 .gameholder:hover{
@@ -179,6 +190,7 @@ footer
     background-color: rgba(0, 0, 0, 0.9);
     border-radius: 24px;
     text-align: center;
+    margin: 16px;
     
 }
 
