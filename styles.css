@@ -97,6 +97,7 @@ main{
     aspect-ratio: 4 / 3;
     object-fit: cover;
     margin: 8px;
+    cursor: pointer;
 }
 
 .album{
@@ -110,7 +111,7 @@ main{
     left: 0%;
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: fixed;
     background-color: rgba(0, 0, 0, 0.25);
 }
 
@@ -132,8 +133,5 @@ main{
     position: absolute;
     margin: 16px;
     z-index: 10;
-}
-
-#gameContentClose:hover{
     cursor: pointer;
 }
