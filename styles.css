@@ -5,19 +5,21 @@
     font-family: poppins;
 }
 
+br{
+    background-color: antiquewhite;
+}
+
 a:hover{
     color: rgb(201, 201, 201);
 }
 
-html{
-    height: 100%;
-}
+
 body{
     background-color: rgb(90, 90, 90);
     height: 100%;
 }
 
-p, h1, a, #splogo{
+p, a, h1,h2,h3,h4,h5,h6 ,#splogo{
     filter: drop-shadow(0px 1px 1px black)
 }
 
@@ -81,4 +83,10 @@ main{
     aspect-ratio: 4 / 3;
     object-fit: cover;
     margin: 8px;
+}
+
+.album{
+    object-fit: cover;
+    width: 80%;
+    aspect-ratio: 1/1;
 }
