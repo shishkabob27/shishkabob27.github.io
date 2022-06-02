@@ -92,8 +92,7 @@ main{
 }
 
 #games img{
-    max-width: 380px;
-    max-height: 380px;
+    max-width: 45%;
     aspect-ratio: 4 / 3;
     object-fit: cover;
     margin: 8px;
