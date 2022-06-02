@@ -5,8 +5,11 @@
     font-family: poppins;
 }
 
-br{
-    background-color: antiquewhite;
+hr{
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    margin: 8px;
+    border: 0px;
 }
 
 a:hover{
