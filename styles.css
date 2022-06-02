@@ -131,6 +131,7 @@ main{
     right: 0%;
     position: absolute;
     margin: 16px;
+    z-index: 10;
 }
 
 #gameContentClose:hover{
