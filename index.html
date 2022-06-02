@@ -21,7 +21,6 @@
 
             gtag('config', 'G-Q377HMYJL5');
         </script> 
-        
     </head>
 
     <body>
@@ -45,11 +44,11 @@
             <h1>Games</h1>
             <br>
             <div id="games">
-                <img src="/files/images/games/bulletsiteretold/br.png">
-                <img src="/files/images/games/sgc/sgc.png">
-                <img src="/files/images/games/bulletsite/bulletsite.png">
-                <img src="/files/images/games/dontfreeze/dfr.png">
-                <img src="/files/games/other/icon.png">
+                <img src="/files/images/games/bulletsiteretold/br.png" onclick="viewGameContent()">
+                <img src="/files/images/games/sgc/sgc.png" onclick="viewGameContent()">
+                <img src="/files/images/games/bulletsite/bulletsite.png" onclick="viewGameContent()">
+                <img src="/files/images/games/dontfreeze/dfr.png" onclick="viewGameContent()">
+                <img src="/files/games/other/icon.png" onclick="viewGameContent()">
             </div>
             <br>
             <h1>Music</h1>
@@ -60,9 +59,18 @@
             <p>Coming soon!</p>
         </main>
 
+        <div id="gameContentHolder" hidden>
+            <div id="gameContent">
+                <span id="gameContentClose" onclick="closeGameContent()"><h3>X</h3></span>
+                <p>this is game content</p>
+            </div>
+        </div>
+
+
         <footer>
             <p>© shishkabob projects</p>
         </footer>
         
     </body>
+    <script src="/index.js"></script>
 </html>
