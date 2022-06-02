@@ -143,6 +143,9 @@ main{
     margin: 16px;
     z-index: 10;
     cursor: pointer;
+    height: 27px;
+    width: 27px;
+    text-align: center;
 }
 
 #gameContentTitle{
