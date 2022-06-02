@@ -27,6 +27,7 @@ function viewGameContent(game) {
             break;
     }
 
+    //set screenshots
     gameContentScreenshot1.src = "/files/images/games/" + game + "/1.png"
     gameContentScreenshot2.src = "/files/images/games/" + game + "/2.png"
     gameContentScreenshot3.src = "/files/images/games/" + game + "/3.png"
