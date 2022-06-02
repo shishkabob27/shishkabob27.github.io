@@ -25,15 +25,22 @@ p, h1, a, #splogo{
     height: 100%;
 }
 
-nav{
+nav, footer{
     background-color: grey;
-    height: 50px;
     display: flex;
     padding: 16px;
+}
+
+nav{
+    height: 50px;
     justify-content: space-between;
     filter: drop-shadow(0px 2px 5px black);
 }
 
+footer{
+    filter: drop-shadow(0px -2px 5px black);
+    justify-content: center;
+}
 
 #navlinks{
     display: flex;
