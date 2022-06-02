@@ -17,6 +17,7 @@ a:hover{
 body{
     background-color: rgb(80, 80, 80);
     height: 100%;
+    box-shadow: inset 0px 0px 20px 2px black;
 }
 
 button{
@@ -24,15 +25,13 @@ button{
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(64,64,64,1) 100%);
     padding: 8px;
     cursor: pointer;
+    margin: 8px;
 }
 button:hover{
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(64,64,64,1) 30%);
 }
-button:active{
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(170,170,170,1) 30%);
-}
+
 p, a, h1,h2,h3,h4,h5,h6 ,#splogo{
     filter: drop-shadow(0px 1px 1px black)
 }
@@ -81,6 +80,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0px 0px 20px 2px black;
 }
 
 #games{
@@ -122,9 +122,14 @@ main{
     top: 50%;
     left: 50%;
     margin: auto;
-    padding: 16px;
+    padding: 32px;
     position: absolute;
     transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
 }
 
 #gameContentClose{
@@ -134,4 +139,25 @@ main{
     margin: 16px;
     z-index: 10;
     cursor: pointer;
+}
+
+#gameContentTitle{
+    max-height: 160px;
+    margin: 32px;
+    object-fit: contain;
+}
+
+#gameContentScreenshot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#gameContentScreenshot img{
+    max-width: 40%;
+    aspect-ratio: 16/9;
+    margin: 16px;
+    object-fit: cover;
 }

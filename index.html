@@ -41,16 +41,18 @@
             <br>
             <iframe width="100%" height="600px" src="https://www.youtube.com/embed/videoseries?list=PLENjrMfrDroA0EYaLgjNF-J_kR9H8LPuz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <br>
+
             <h1>Games</h1>
             <br>
             <div id="games">
-                <img src="/files/images/games/bulletsiteretold/br.png" onclick="viewGameContent()">
-                <img src="/files/images/games/sgc/sgc.png" onclick="viewGameContent()">
-                <img src="/files/images/games/bulletsite/bulletsite.png" onclick="viewGameContent()">
-                <img src="/files/images/games/dontfreeze/dfr.png" onclick="viewGameContent()">
-                <img src="/files/games/other/icon.png" onclick="viewGameContent()">
+                <img src="/files/images/games/bulletsiteretold/br.png" onclick="viewGameContent('bulletsiteretold')">
+                <img src="/files/images/games/sgc/sgc.png" onclick="viewGameContent('sgc')">
+                <img src="/files/images/games/bulletsite/bulletsite.png" onclick="viewGameContent('bulletsite')">
+                <img src="/files/images/games/dontfreeze/dfr.png" onclick="viewGameContent('dontfreeze')">
+                <img src="/files/games/other/icon.png" onclick="viewGameContent('other')">
             </div>
             <br>
+
             <h1>Music</h1>
             <br>
             <img src="/files/images/music/sbow.png" class="album">
@@ -62,7 +64,17 @@
         <div id="gameContentHolder" hidden>
             <div id="gameContent">
                 <span id="gameContentClose" onclick="closeGameContent()"><h3>X</h3></span>
-                <p>this is game content</p>
+                
+                <img src="" id="gameContentTitle">
+
+                <div id="gameContentScreenshot">
+                    <img src="/files/images/games/NOLOGO.png">
+                    <img src="/files/images/games/NOLOGO.png">
+                    <img src="/files/images/games/NOLOGO.png">
+                    <img src="/files/images/games/NOLOGO.png">
+                </div>
+
+                <button>Download</button>
             </div>
         </div>
 
