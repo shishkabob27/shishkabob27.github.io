@@ -62,4 +62,7 @@ main{
     padding: 24px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
