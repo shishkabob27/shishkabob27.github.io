@@ -7,21 +7,37 @@ const gameContentScreenshot2 = document.getElementById('gameContentScreenshot2')
 const gameContentScreenshot3 = document.getElementById('gameContentScreenshot3')
 const gameContentScreenshot4 = document.getElementById('gameContentScreenshot4')
 
+const gameDownloadButton1 = document.getElementById('gameDownloadButton1')
+
+const gameContentDesc = document.getElementById('gameContentDesc')
+
+var selectedGame = null;
+
 function viewGameContent(game) {
     gameContentHolder.hidden = false;
+
+    selectedGame = game;
 
     switch (game) {
         case 'bulletsiteretold':
             gameContentTitle.src = "/files/images/games/bulletsiteretold/logo_br.png"
+            gameContentDesc.innerHTML = "A remake of Bulletsite. The Squares have invaded the circle island and you must fight for it."
+
             break;
         case 'sgc':
             gameContentTitle.src = "/files/images/games/sgc/sgc_logo.png"
+            gameContentDesc.innerHTML = "A collection of games made by shishkabob from 2016-2020. It also contains the editable files. This Collection must be downloaded."
+
             break;
         case 'bulletsite':
             gameContentTitle.src = "/files/images/games/bulletsite/Title_banner.png"
+            gameContentDesc.innerHTML = "The Squares have invaded the circle island and you must fight 1v1 for it."
+
             break;
         case 'dontfreeze':
             gameContentTitle.src = "/files/images/games/dontfreeze/logo_dt.png"
+            gameContentDesc.innerHTML = "Oh no! your car broke down and now you have to find car parts and avoid the ice queen."
+
             break;
         default:
             break;
@@ -36,4 +52,19 @@ function viewGameContent(game) {
 
 function closeGameContent() {
     gameContentHolder.hidden = true;
+}
+
+function downloadGame() {
+    switch (selectedGame) {
+        case 'bulletsiteretold':
+            break;
+        case 'sgc':
+            break;
+        case 'bulletsite':
+            break;
+        case 'dontfreeze':
+            break;
+        default:
+            break;
+    }
 }

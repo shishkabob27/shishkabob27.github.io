@@ -168,9 +168,14 @@ main{
 #gameContentScreenshot img{
     max-width: 40%;
     aspect-ratio: 16/9;
-    margin: 16px;
+    margin: 1%;
     object-fit: cover;
     border-radius: 8px;
+}
+
+#gameContentDesc{
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #bg{
