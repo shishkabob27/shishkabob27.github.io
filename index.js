@@ -32,12 +32,12 @@ function viewGameContent(game) {
         case 'bulletsite':
             gameContentTitle.src = "/files/images/games/bulletsite/Title_banner.png"
             gameContentDesc.innerHTML = "The Squares have invaded the circle island and you must fight 1v1 for it."
-            gameDownloadButton1.innerHTML = "Download (9.8 MB)"
+            gameDownloadButton1.innerHTML = "Download (v1.1) (9.8 MB)"
             break;
         case 'dontfreeze':
             gameContentTitle.src = "/files/images/games/dontfreeze/logo_dt.png"
             gameContentDesc.innerHTML = "Oh no! your car broke down and now you have to find car parts and avoid the ice queen."
-            gameDownloadButton1.innerHTML = "Download (6 MB)"
+            gameDownloadButton1.innerHTML = "Download (v1.2) (6 MB)"
             break;
         default:
             break;
