@@ -1,115 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>shishkabob's website</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="YouTube, Music, Games">
-    <meta name="description" content="Epic games and stuff. :)">
-    <meta name="author" content="shishkabob">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://use.typekit.net/url5ayq.css"> <!-- Poppins font -->
-    <link rel="icon" type="image/x-icon" href="files/images/general/shishkabob.png">
+    <head>
+        <title>shishkabob projects</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=0.75">
+        <meta name="keywords" content="YouTube, Music, Games">
+        <meta name="description" content="Epic games and stuff. :)">
+        <meta name="author" content="shishkabob">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://use.typekit.net/url5ayq.css"> <!-- Poppins font -->
+        <link rel="icon" type="image/x-icon" href="files/images/general/shishkabob.png">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q377HMYJL5"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q377HMYJL5"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-    gtag('config', 'G-Q377HMYJL5');
-    </script> 
-    
-</head>
-<body>
-    
-    <img src="files/images/general/shishkabob.png" class="bg">
-   
-    <nav>
-        <a href="index.html"><img src="/files/images/general/shishkabob.png" alt="shishkabob" class="shishkabobimg"></a>
-        <h1>shishkabob's website</h1>
+            gtag('config', 'G-Q377HMYJL5');
+        </script> 
+    </head>
 
-        <div class="navbaroptions">
-            <a href="https://www.youtube.com/channel/UC3Hj9-ySSe4-Cc7GOF2SHQA" class="navbarlink">YouTube</a>
-            <a href="https://soundcloud.com/shishkabob27">SoundCloud</a>
-            <a href="https://steamcommunity.com/id/shishkabob27/" class="navbarlink">Steam</a>
-            <a href="https://www.twitch.tv/shishkabob27" class="navbarlink">Twitch</a>
-            <a href="https://github.com/Shishkabob27" class="navbarlink">GitHub</a>
-         </div>
-    </nav>
+    <body>
+        <nav>
+            <a href="/index.html"><img src="/files/images/general/shishkabob projects.png" id="splogo" ></a>
+            <div id="navlinks">
+                <a href="https://www.youtube.com/channel/UC3Hj9-ySSe4-Cc7GOF2SHQA">YouTube</a>
+                <a href="https://www.twitch.tv/shishkabob27">Twitch</a>
+                <a href="https://steamcommunity.com/id/shishkabob27/">Steam</a>
+                <a href="https://soundcloud.com/shishkabob27">SoundCloud</a>
+                <a href="https://github.com/Shishkabob27">GitHub</a>
+            </div>
+        </nav>
 
-    <div class="main"> 
-
-        <div class="contentHolder">
-            <h1>YouTube</h1>
+        <main>
             <hr>
-            <iframe width="960" height="540" src="https://www.youtube.com/embed/videoseries?list=PLENjrMfrDroA0EYaLgjNF-J_kR9H8LPuz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1>Latest YouTube video</h1>
+            <hr>
+            <iframe width="100%" height="600px" src="https://www.youtube.com/embed/videoseries?list=PLENjrMfrDroA0EYaLgjNF-J_kR9H8LPuz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <hr>
+
+            <h1>Games</h1>
+            <hr>
+            <div id="games">
+                <img src="/files/images/games/bulletsiteretold/br.png" onclick="viewGameContent('bulletsiteretold')">
+                <img src="/files/images/games/sgc/sgc.png" onclick="viewGameContent('sgc')">
+                <img src="/files/images/games/bulletsite/bulletsite.png" onclick="viewGameContent('bulletsite')">
+                <img src="/files/images/games/dontfreeze/dfr.png" onclick="viewGameContent('dontfreeze')">
+                <img src="/files/games/other/icon.png" onclick="viewGameContent('other')" hidden>
+            </div>
+            <hr>
+
+            <h1>Music</h1>
+            <hr>
+            <img src="/files/images/music/sbow.png" class="album">
+            <hr>
+            <h2>shishkabob's box of wonders</h2>
+            <p>Coming soon!</p>
+        </main>
+
+        <div id="gameContentHolder" hidden>
+            <div id="gameContent">
+                <span id="gameContentClose" onclick="closeGameContent()"><h2>X</h2></span>
+                
+                <img src="" id="gameContentTitle">
+
+                <div id="gameContentScreenshot">
+                    <img src="/files/images/games/NOLOGO.png" id="gameContentScreenshot1">
+                    <img src="/files/images/games/NOLOGO.png" id="gameContentScreenshot2">
+                    <img src="/files/images/games/NOLOGO.png" id="gameContentScreenshot3">
+                    <img src="/files/images/games/NOLOGO.png" id="gameContentScreenshot4">
+                </div>
+
+                <button onclick="gameDownload()" id="gameDownloadButton1">Download</button>
+                <p id="gameContentDesc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ipsum quam eligendi modi accusantium. Nemo molestiae laudantium consequatur perferendis? Perspiciatis labore dignissimos in est! Aliquid quia dicta blanditiis neque corporis!</p>
+
+            </div>
         </div>
+
+        <img src="/files/images/general/shishkabob.png" alt="" id="bg">
+
+        <footer>
+            <p>© shishkabob projects</p>
+        </footer>
         
-        <div class="contentHolder">
-
-            <H1>Games</H1>
-            <hr>
-
-            <div class="gameSection">
-
-                <div class="gameholder">
-                    <img src="./files/images/games/bulletsiteretold/br.png" alt="">
-                    <h2>Bulletsite: Retold</h2>
-                    <b>DEMO NOW AVAILABLE.</b>
-                    <p>A remake of Bulletsite. The Squares have invaded the circle island and you must fight for it.</p>
-                    <a href="./bulletsiteretold.html"><button>View</button></a>
-                </div>
-                
-            </div>
-
-            <div class="gameSection">
-                
-                <div class="gameholder">
-                    <img src="./files/images/games/sgc/sgc.png" alt="">
-                    <h2>Shishkabob's Game Collection</h2>
-                    <p>A collection of games made by shishkabob from 2016-2020. It also contains the editable files. This Collection must be downloaded.</p>
-                    <a href="./sgc.html"><button>View</button></a>
-                </div>
-
-                <div class="gameholder">
-                    
-                    <img src="./files/images/games/bulletsite/bulletsite.png" alt="">
-                    <h2>Bulletsite</h2>
-                    <p>The Squares have invaded the circle island and you must fight 1v1 for it.</p>
-                    <a href="./bulletsite.html"><button>View</button></a>
-                </div>
-
-            </div>
-
-            <div class="gameSection">
-                
-                <div class="gameholder">
-                    <img src="./files/images/games/dontfreeze/dfr.png" alt="">
-                    <h2>Don't Freeze!</h2>
-                    <p>Oh no! your car broke down and now you have to find car parts and avoid the ice queen.</p>
-                    <a href="./dontfreeze.html"><button>View</button></a>
-                </div>
-
-                <div class="gameholder">
-                    <img src="./files/games/other/icon.png" alt="">
-                    <h2>Unplayable games</h2>
-                    <p>Games which editable files have been lost.</p>
-                    <a href="./othergame.html"><button>View</button></a>
-                </div>
-
-            </div>
-            
-        </div>
-
-    </div>
-
-    <footer>
-        <p>shishkabob logo made by ButterBeat</p>
-    </footer>
-
-
-</body>
+    </body>
+    <script src="/index.js"></script>
 </html>
