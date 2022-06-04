@@ -22,22 +22,22 @@ function viewGameContent(game) {
         case 'bulletsiteretold':
             gameContentTitle.src = "/files/images/games/bulletsiteretold/logo_br.png"
             gameContentDesc.innerHTML = "A remake of Bulletsite. The Squares have invaded the circle island and you must fight for it."
-
+            gameDownloadButton1.innerHTML = "Download Demo (58.4 MB)"
             break;
         case 'sgc':
             gameContentTitle.src = "/files/images/games/sgc/sgc_logo.png"
             gameContentDesc.innerHTML = "A collection of games made by shishkabob from 2016-2020. It also contains the editable files. This Collection must be downloaded."
-
+            gameDownloadButton1.innerHTML = "Download (v1.01) (7z) (142 MB)"
             break;
         case 'bulletsite':
             gameContentTitle.src = "/files/images/games/bulletsite/Title_banner.png"
             gameContentDesc.innerHTML = "The Squares have invaded the circle island and you must fight 1v1 for it."
-
+            gameDownloadButton1.innerHTML = "Download (9.8 MB)"
             break;
         case 'dontfreeze':
             gameContentTitle.src = "/files/images/games/dontfreeze/logo_dt.png"
             gameContentDesc.innerHTML = "Oh no! your car broke down and now you have to find car parts and avoid the ice queen."
-
+            gameDownloadButton1.innerHTML = "Download (6 MB)"
             break;
         default:
             break;
