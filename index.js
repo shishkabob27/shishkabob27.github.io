@@ -54,15 +54,19 @@ function closeGameContent() {
     gameContentHolder.hidden = true;
 }
 
-function downloadGame() {
+function gameDownload() {
     switch (selectedGame) {
         case 'bulletsiteretold':
+            window.open('/files/games/bulletsiteretold/bulletsiteretolddemo_installer.exe')
             break;
         case 'sgc':
+            window.open('https://shishkabob.xyz/files/games/sgc/sgc_installer.7z')
             break;
         case 'bulletsite':
+            window.open('/files/games/bulletsite/Bulletsite.exe')
             break;
         case 'dontfreeze':
+            window.open('/files/games/dontfreeze/dontfreezeremastered.exe')
             break;
         default:
             break;
