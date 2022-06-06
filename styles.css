@@ -18,7 +18,7 @@ a:hover{
 
 
 body{
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(255, 255, 255);
     height: 100%;
     box-shadow: inset 0px 0px 20px 2px black;
 }
@@ -44,7 +44,7 @@ p, a, h1,h2,h3,h4,h5,h6 ,#splogo{
 }
 
 nav, footer{
-    background-color: rgba(128, 128, 128, 0.75);
+    background-color: rgba(0, 0, 0, 0.65);
     display: flex;
     padding: 16px;
 }
@@ -73,7 +73,7 @@ footer{
 }
 
 main{
-    background-color: rgba(53, 53, 53, 0.75);
+    background-color: rgba(0, 0, 0, 0.75);
     max-width: 1024px;
     min-width: 240px;
     height: 100%;
@@ -119,7 +119,7 @@ main{
 }
 
 #gameContent{
-    background-color: rgba(107, 107, 107, 0.95);
+    background-color: rgba(0, 0, 0, 0.85);
     width: 70%;
     height: 85%;
     top: 50%;
@@ -136,6 +136,7 @@ main{
     align-items: center;
     box-shadow: 0px 2px 6px black;
     overflow-y:auto;
+    overflow-x: hidden;
     z-index: 5;
 }
 
@@ -152,7 +153,8 @@ main{
 }
 
 #gameContentTitle{
-    max-height: 160px;
+    max-height: 240px;
+    max-width: 100%;
     margin: 32px;
     object-fit: contain;
 }
@@ -174,8 +176,9 @@ main{
 }
 
 #gameContentDesc{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 16px;
 }
 
 #bg{
@@ -188,25 +191,3 @@ main{
     object-fit: cover;
     filter: blur(16px);
 }
-
-/* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: auto;
-    scrollbar-color: #000000 #ffffff;
-  }
-
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 16px;
-  }
-
-  *::-webkit-scrollbar-track {
-    background: #ffffff00;
-  }
-
-  *::-webkit-scrollbar-thumb {
-    background-color: #000000;
-    border-radius: 10px;
-    border: 3px solid #ffffff;
-  }
