@@ -27,7 +27,7 @@ function viewGameContent(game) {
         case 'sgc':
             gameContentTitle.src = "/files/images/games/sgc/sgc_logo.png"
             gameContentDesc.innerHTML = "A collection of games made by shishkabob from 2016-2020. It also contains the editable files. This Collection must be downloaded."
-            gameDownloadButton1.innerHTML = "Download (v1.01) (7z) (142 MB)"
+            gameDownloadButton1.innerHTML = "Download (v2.00) (7z) (186 MB)"
             break;
         case 'bulletsite':
             gameContentTitle.src = "/files/images/games/bulletsite/Title_banner.png"
@@ -60,7 +60,7 @@ function gameDownload() {
             window.open('/files/games/bulletsiteretold/bulletsiteretolddemo_installer.exe')
             break;
         case 'sgc':
-            window.open('https://shishkabob.xyz/files/games/sgc/sgc_installer.7z')
+            window.open('https://app.box.com/s/2090gqoxr0ek4c6795r69mdo034ff8mt')
             break;
         case 'bulletsite':
             window.open('/files/games/bulletsite/Bulletsite.exe')
