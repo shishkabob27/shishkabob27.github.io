@@ -213,3 +213,9 @@ main{
     object-fit: cover;
     filter: blur(16px);
 }
+
+.mediaOther{
+    max-width: 100%;
+    min-height: 100%;
+    width: 100%;
+}
