@@ -108,18 +108,21 @@ main{
 #games{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-around;
     padding: 16px;
+    justify-content: space-evenly;
 }
 
 #games img{
-    max-width: 45%;
+    max-width: 100%;
     aspect-ratio: 4 / 3;
     object-fit: cover;
-    margin: 8px;
     cursor: pointer;
     border-radius: 8px;
+}
+
+#games a{
+    max-width: 45%;
+    margin: 8px;
 }
 
 .album{
