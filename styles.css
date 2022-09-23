@@ -105,23 +105,25 @@ main{
     padding-bottom:initial;
 }
 
-#games{
+.games{
     display: flex;
     flex-wrap: wrap;
     padding: 16px;
     justify-content: space-evenly;
 }
 
-#games img{
-    max-width: 100%;
+.games img{
+    min-width: 446px;
+    max-width: 446px;
     aspect-ratio: 4 / 3;
     object-fit: cover;
     cursor: pointer;
     border-radius: 8px;
 }
 
-#games a{
-    max-width: 45%;
+.games a{
+    min-width: 446px;
+    max-width: 446px;
     margin: 8px;
 }
 
